@@ -1,0 +1,26 @@
+file format : IDRISI Raster A.1
+file title  : 
+data type   : integer
+file type   : binary
+columns     : 2397
+rows        : 1140
+ref. system : utm-31n
+ref. units  : m
+unit dist.  : 1.0000000
+min. X      : 502635.0000000
+max. X      : 574545.0000000
+min. Y      : 706485.0000000
+max. Y      : 740685.0000000
+pos'n error : unknown
+resolution  : 30.0000000
+min. value  : -999
+max. value  : 5
+display min : -999
+display max : 5
+value units : unspecified
+value error : unknown
+flag value  : -32768
+flag def'n  : missing data
+legend cats : 0
+lineage     : 
+comment     : 

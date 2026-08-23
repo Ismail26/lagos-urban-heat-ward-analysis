@@ -1,0 +1,37 @@
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Local environments and caches
+python_packages/
+.pytest_cache/
+.mypy_cache/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Raw/large geospatial inputs are documented but not versioned
+data/raw/**/*.tif
+data/raw/**/*.tiff
+data/raw/**/*.img
+data/raw/**/*.jp2
+data/raw/**/*.zip
+data/raw/**/*.tar
+data/raw/**/*.gz
+data/raw/**/*.shp
+data/raw/**/*.dbf
+data/raw/**/*.shx
+data/raw/**/*.gpkg
+
+# Third-party satellite panels are not redistributed
+assets/satellite_images/*
+!assets/satellite_images/README.md
+
+# Temporary figure exports
+figures/*.tmp
+figures/*_draft.*

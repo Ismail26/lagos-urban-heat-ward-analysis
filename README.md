@@ -1,5 +1,7 @@
 # Urban differentiation and land-surface temperature dynamics in Lagos
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22073088.svg)](https://doi.org/10.5281/zenodo.22073088)
+
 This repository contains the processed data, analysis code, and figure outputs supporting the manuscript **“Urban Differentiation and Land Surface Temperature Dynamics in Lagos Metropolis: A Ward-Level Analysis Using Multi-Temporal Landsat Imagery (2002–2022)”** by Olajide Ismail Olayinka, Mayowa Fasona, and Akinlabi Akintuyi.
 
 The study evaluates ward-scale land-surface temperature (LST), land-use/land-cover change, NDVI, NDBI, MNDWI, building density, population density, and planning characteristics across Lagos Metropolis for 2002, 2013, and 2022.
@@ -35,11 +37,11 @@ The corridor composites additionally require the satellite-image panels describe
 
 ## Data availability
 
-Processed data, analysis code, supporting profile maps, and final figure outputs are provided in this repository. The original Landsat scenes and large derived GeoTIFFs are not stored in GitHub. Landsat data can be obtained from [USGS EarthExplorer](https://earthexplorer.usgs.gov/); users should recreate or supply the raster inputs using the filenames documented under `data/raw/`.
+Processed tables, selected analysis-ready GeoTIFFs, population-density raster inputs, analysis code, supporting profile maps, and final figure outputs are provided in this repository. Original Landsat scenes, third-party boundary packages, and separately licensed satellite-image panels are not stored in GitHub. Landsat data can be obtained from [USGS EarthExplorer](https://earthexplorer.usgs.gov/); expected raster filenames are documented under `data/raw/`.
 
 ## Citation
 
-Until the associated article and Zenodo archive receive persistent identifiers, cite this repository using `CITATION.cff`. A versioned Zenodo DOI will be added after the first public GitHub release.
+The archived `v1.0.0` release is available from Zenodo at [https://doi.org/10.5281/zenodo.22073088](https://doi.org/10.5281/zenodo.22073088). Citation metadata are also provided in `CITATION.cff`.
 
 ## Licenses
 

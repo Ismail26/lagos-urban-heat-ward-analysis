@@ -1,6 +1,8 @@
 # Raw and large inputs
 
-Large raster inputs are intentionally excluded from GitHub. After obtaining or recreating them, place them under this directory with the structure below:
+The repository includes the population-density raster inputs used by the project. Original Landsat scenes remain excluded; selected analysis-ready LST, LULC, and spectral-index GeoTIFFs are retained under `data/derived/`.
+
+For the cleaned figure notebook, organize the required LST and LULC inputs under this directory with the structure below (copies can be made from `data/derived/` where the corresponding analysis-ready file is available):
 
 ```text
 data/raw/
